@@ -1,0 +1,45 @@
+Introducción a Git y Metodología de Desarrollo
+Git: Una Herramienta de Control de Versiones
+
+Git es un sistema de control de versiones distribuido ampliamente utilizado en el desarrollo de software.
+Su importancia radica en su capacidad para rastrear cambios en el código fuente de un proyecto a lo largo del tiempo y permitir a los equipos colaborar eficazmente en el desarrollo de software.
+
+Importancia de Git:
+
+Historial y Seguimiento: Git mantiene un historial detallado de todos los cambios realizados en un proyecto. Esto permite rastrear quién hizo qué, cuándo y por qué. Esto es crucial para la colaboración y la solución de problemas.
+
+Colaboración Eficiente: Git facilita la colaboración entre múltiples desarrolladores. Varios miembros del equipo pueden trabajar en diferentes aspectos del proyecto simultáneamente y fusionar sus contribuciones sin conflictos.
+
+Ramificación y Experimentación: Git permite crear ramas independientes para trabajar en nuevas características o correcciones sin afectar la rama principal del proyecto. Esto fomenta la experimentación sin riesgos.
+
+Metodología de Desarrollo: No "Todo a Master"
+
+En nuestro proceso de desarrollo, seguimos una metodología que no se basa en la idea de "todo a master". En lugar de eso, hemos adoptado una metodología que enfatiza la organización, la colaboración efectiva y la gestión del flujo de trabajo.
+En este caso, estamos utilizando la metodología de GitFlow como modelo base, aunque puede adaptarse según las necesidades específicas del proyecto.
+
+Elección de la Metodología y Sus Beneficios
+Razón de Elegir GitFlow:
+
+Hemos optado por la metodología GitFlow debido a sus características que encajan perfectamente con nuestros objetivos de desarrollo y colaboración. Aquí hay algunas razones clave por las que hemos elegido esta metodología:
+
+Organización y Estructura: GitFlow proporciona una estructura clara y organizada para el desarrollo de software. La presencia de ramas específicas para características, correcciones y versiones hace que sea más fácil de entender y seguir el estado del proyecto.
+
+Gestión de Versiones Efectiva: GitFlow es especialmente eficaz en la gestión de versiones. Con la creación de ramas de versión específicas, podemos aislar y preparar características y correcciones para una liberación sin afectar la rama de desarrollo en curso.
+
+Colaboración Simultánea: Al utilizar ramas de características separadas, múltiples miembros del equipo pueden trabajar en sus respectivas tareas al mismo tiempo sin crear conflictos. Esto fomenta la colaboración eficiente.
+
+Control de Calidad y Pruebas: La metodología de GitFlow promueve la verificación y pruebas exhaustivas antes de fusionar cambios en la rama de desarrollo o en la rama de producción. Esto garantiza un alto nivel de calidad en el software entregado.
+
+Beneficios de GitFlow:
+
+La elección de GitFlow como metodología de desarrollo aporta varios beneficios concretos a nuestro proyecto:
+
+Gestión de Riesgos: Al utilizar ramas de características separadas, minimizamos el riesgo de errores no detectados en la rama de desarrollo principal. Cada función se prueba y valida por separado antes de fusionarse.
+
+Mejora la Colaboración: La estructura de ramas facilita la colaboración eficiente entre los miembros del equipo, ya que cada uno puede trabajar de manera aislada en su tarea sin interferir con el trabajo de los demás.
+
+Mayor Claridad y Visibilidad: La metodología proporciona una estructura que hace que el estado y el progreso del proyecto sean más visibles y claros para todos los miembros del equipo.
+
+Mayor Calidad del Software: Al hacer hincapié en las pruebas y la revisión de código antes de la fusión, aseguramos que el software entregado sea de alta calidad y libre de errores críticos.
+
+Facilita el Mantenimiento a Largo Plazo: La capacidad de crear ramas de versión y ramas de corrección (hotfix) facilita la gestión y el mantenimiento a largo plazo del proyecto.

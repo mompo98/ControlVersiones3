@@ -8,10 +8,6 @@ En esta etapa, el Usuario 1 se encarga de crear el repositorio y configurar las 
 
 1. **Creación del Repositorio:** El Usuario 1 inicia un nuevo repositorio en GitHub con los archivos iniciales y una estructura base.
 
-2. **Configuración de Ramas Iniciales:** Se crean las ramas `master` y `develop` para separar el desarrollo de la producción.
-
-![Captura de pantalla: Configuración de Ramas](capturas/configuracion-ramas.png)
-
 ## Creación de Features por el Usuario 2
 
 El Usuario 2 se encarga de implementar dos características: "Modificar Contenido HTML" y "Modificar Atributos HTML". El proceso implica:
@@ -19,8 +15,6 @@ El Usuario 2 se encarga de implementar dos características: "Modificar Contenid
 1. **Creación de Ramas de Características:** El Usuario 2 crea las ramas `feature/contenidoHTML` y `feature/atributosHTML` para trabajar en cada característica.
 
 2. **Implementación de Características:** Se realizan los cambios necesarios en cada rama de características.
-
-![Captura de pantalla: Implementación de Características](capturas/implementacion-features.png)
 
 ## Creación de la Feature de Estilos CSS por el Usuario 3
 
@@ -30,8 +24,6 @@ El Usuario 3 se encarga de implementar la característica "Modificar Estilos CSS
 
 2. **Implementación de la Característica:** Los estilos CSS se agregan según las especificaciones.
 
-![Captura de pantalla: Implementación de Estilos CSS](capturas/estilos-css.png)
-
 ## Pruebas y Etiquetado por el Usuario 1
 
 El Usuario 1, siendo el más experimentado, se encarga de realizar pruebas y etiquetar la versión. El proceso es el siguiente:
@@ -39,8 +31,6 @@ El Usuario 1, siendo el más experimentado, se encarga de realizar pruebas y eti
 1. **Fusión de Cambios:** Se fusionan todas las características en la rama `develop`.
 
 2. **Etiquetado de Versión:** Se crea una etiqueta `v1.0` para marcar la versión.
-
-![Captura de pantalla: Etiquetado de Versión](capturas/etiquetado-version.png)
 
 ## Automatización de Hooks por el Usuario 1
 
@@ -54,7 +44,5 @@ El Usuario 1 automatiza algunos procesos rutinarios utilizando hooks de Git. Los
 ## Creación de la Rama "gh-pages" para Documentación
 
 Finalmente, se crea una rama `gh-pages` para incluir toda la documentación del proceso. Esto permitirá la publicación en GitHub Pages.
-
-![Captura de pantalla: Rama "gh-pages"](capturas/rama-gh-pages.png)
 
 Este proceso detallado garantiza un desarrollo ordenado, colaborativo y controlado en nuestro proyecto.

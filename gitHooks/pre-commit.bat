@@ -14,6 +14,8 @@ if git diff --cached --name-only | xargs grep -P '[\x80-\xFF]' /dev/null; then
   exit 1
 fi
 
+ESLINT_PATH="./node_modules/.bin/eslint"
+
 if git diff --cached --name-only | grep '\.html$' | xargs eslint --fix; then
   echo "Se han aplicado correcciones de formato a los archivos HTML."
 fi
